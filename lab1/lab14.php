@@ -5,10 +5,6 @@
 <body>
 <?php
 //Laboratorio 1.4: Mostrar en pantalla una tabla de 10 por 10 con los números del 1 al 100
-//<>
-//</>
-//{ 
-//}
 echo "<table border=1>"; 
 $n=1;
 for ($n1=1; $n1<=10; $n1++)
