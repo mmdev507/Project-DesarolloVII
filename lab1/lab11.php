@@ -1,7 +1,7 @@
 
 <html>
 <head>
- <title> </title>
+ <title> Laboratorio 1.1</title>
 </head>
 <body>
 <?php
