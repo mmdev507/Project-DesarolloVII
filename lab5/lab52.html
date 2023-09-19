@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Laboratorio 5.2</title>
+</head>
+<body>
+    <h1>Ejemplo de subida de archivos al servidor web</h1>
+    <p>Por favor, seleccione un archivo de imagen en formato jpg, jpeg, gif o png y que no supere 1MB de tamano.</p>
+    
+    <form action="lab52.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="nombre_archivo_cliente" accept=".jpg, .jpeg, .gif, .png" /><br/><br/>
+        <input type="submit" name="enviar" value="Enviar" />
+    </form>
+</body>
+</html>
