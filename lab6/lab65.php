@@ -12,4 +12,8 @@ public function masTests() {
 echo "ClaseHijo::masTests() llamada\n";
 }
 }
+
+//El resultado indica que el método no pueder ser sobreescrito en la clase hija 
+//Debido a que fue colocado comó metodo final.
 ?>
+
