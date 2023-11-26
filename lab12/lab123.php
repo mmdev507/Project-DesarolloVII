@@ -8,7 +8,7 @@ session_start ();
 </HEAD>
 <BODY>
     <H1>Manejo de Sesiones</H1>
-    <H2>Paso 2: la variable ya ha sido destruida y su valor se ha perdido</H2>
+    <H2>Paso 3: la variable ya ha sido destruida y su valor se ha perdido</H2>
     <?php
 
     if(isset($_SESSION['var']))
